@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Space44 Code Assessment</h3>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-### `yarn start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center"> A Web Application to visualize COVID-19 presence in the United States.
+    <br> 
+</p>
 
-### `yarn test`
+## 📝 Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-### `yarn build`
+## 🧐 About <a name = "about"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+With the COVID-19 pandemic, the United States has become a global hotspot for the spread of the virus. There is a great need to be able to visualize the spread of the virus in the United States and across the globe. This will help the masses understand the spread of the virus as well as the regions that are affected the most. This application is designed to visualize the spread of the virus in the United States. The application makes use of the [Covid Act Now API](https://apidocs.covidactnow.org/api). The application is designed to be used in any browser.
+## 🧐 Technical Description <a name = "Technical Description"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The task is Front-End inclined involving the use if React Js , a REST API, Material-UI, and a Google Map. The choice of React Js was made because it is a library that is easy to use and is very popular. 
+## 🧐 Trade Offs <a name = "Trade Offs"></a>
+The application requirements outlined in the test have been met in my implementation. However, as with any software, there are trade offs that need to be considered. The trade offs are as follows:
+- The Covid Act Now API does not provide the coordinates of the USA States (lat,lng) in the response. This is a limitation of the API. As a result, I had to get that data elsewhere.
+The coordinates data set might not be very accurate and some of the states might not be represented in the dataset
+## 🧐 Future Improvements <a name = "Improvements"></a>
+Some of the future improvements that I would like to make are:
+- The application is not fully optimized for mobile devices
+- One the user searches/filters for a specific state, I'd like to be able to zoom in on that state
+- The UI could be improved in several ways
+    - including pie charts & bar graphs in the visualization
+    - improving the overall look & feel of the application
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-### `yarn eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+What things you need to install the software and how to install them.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+- Node.js
+- NPM/Yarn
+- React Knowledge
+- REST APIs
+- General HTML/CSS Knowledge
+- Git
+- NPM Packages
+    - Material UI
+    - Google-Map-React
+    
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A step by step series of examples that tell you how to get a development env running.
 
-## Learn More
+Say what the step will be
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+1. Install Node.js
+2. Install NPM/Yarn
+3. Clone the repository from GitHub
+4. Open terminal and navigate to the project directory
+5. Run "yarn install" to install all the packages
+6. Run "yarn start"
+7. Open the browser and navigate to http://localhost:3000
+8. Enjoy!
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎈 Usage <a name="usage"></a>
 
-### Analyzing the Bundle Size
+The Application is to be used to view & understand the spread of COVID-19 within the United States.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Deployment <a name = "deployment"></a>
 
-### Making a Progressive Web App
+- To create a production ready version of the application, run "yarn build"
+- To deploy the application to a live system, run "yarn deploy"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ⛏️ Built Using <a name = "built_using"></a>
 
-### Advanced Configuration
+- [ReactJs](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Google Maps API](https://developers.google.com/maps/) - Maps Javascript API
+- [Google Map React ](https://github.com/google-map-react/google-map-react/) - a component written over a small set of the Google Maps API
+- [Material UI ](https://v4.mui.com/) - UI library for React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ✍️ Authors <a name = "authors"></a>
+This was written by Kelvin Mwaura
+Find below my various digital profiles
+- [Github](https://github.com/mwauragitonga)
+- [Website ](https://www.mwauragitonga.com)
+- [LinkedIn ](https://www.linkedin.com/in/mwaura-kelvin-gitonga-3a3b07171/)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-### `yarn build` fails to minify
+- Hat tip to the following people & organizations for their contributions:
+    - [Google Maps API](https://developers.google.com/maps/)
+    - [Google Map React ](https://github.com/google-map-react/google-map-react/)
+    - https://covidactnow.org/
+    - https://gist.github.com/jpriebe/d62a45e29f24e843c974
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
