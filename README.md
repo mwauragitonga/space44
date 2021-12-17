@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://space44.com/wp-content/uploads/2017/10/S44WordlogoWhite_graf_180627_MMu-3.png" alt="Project logo"></a>
+ <img width=200px height=200px src="https://hotjobsng.com/wp-content/uploads/2021/11/SPACE44-GmbH.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Space44 Code Assessment</h3>
+<h3 align="center">Space44 Code Challenge</h3>
 
 ---
 
